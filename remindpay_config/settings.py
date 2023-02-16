@@ -39,9 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'user',
+    'corsheaders'
 ]
 
+#Agregando los cors que utilizaremos, para desarrollo la siguiente opcion puede estar en True
+CORS_OROGIN_ALLOW_ALL = True
+
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

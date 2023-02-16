@@ -25,3 +25,6 @@ source env/bin/activate
 ## Install Django and Django REST framework into the virtual environment
 pip install django
 pip install djangorestframework
+
+### Install Corsheaders
+pip install django-cors-headers
