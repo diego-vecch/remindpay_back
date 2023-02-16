@@ -3,10 +3,13 @@ Bienvenidos al reposiotorio backend para la app de recordatorios de suscripcione
 ## Clonar repositorio
 git clone https://github.com/diego-vecch/remindpay_back.git
 
-## Configuración del proyecto en windows
-python -m venv env
-source env\Scripts\activate
+# Configuración del proyecto en windows 
 
+## Usando venv (entorno virtual) - opción 1
+python -m venv env
+env\Scripts\activate
+
+## Usando virtual env(entorno virtual) - opción 2
 
 ### Instalar el entorno  virtualenv
 pip install virtualenv
@@ -17,7 +20,10 @@ python -m virtualenv venv
 ### Activar virtualenv
 .\venv\Scripts\activate
 
-## Configuración del proyecto en Mac
+### Install Corsheaders
+pip install django-cors-headers
+
+# Configuración del proyecto en Mac
 ## Create a virtual environment to isolate our package dependencies locally
 python3 -m venv env
 source env/bin/activate  
@@ -27,4 +33,4 @@ pip install django
 pip install djangorestframework
 
 ### Install Corsheaders
-pip install django-cors-headers
+pip3 install django-cors-headers
