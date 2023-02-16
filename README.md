@@ -22,6 +22,8 @@ python -m virtualenv venv
 
 ### Install Corsheaders
 pip install django-cors-headers
+pip install python-dotenv
+pip install python-decouple
 
 # Configuración del proyecto en Mac
 ## Create a virtual environment to isolate our package dependencies locally
@@ -34,3 +36,5 @@ pip install djangorestframework
 
 ### Install Corsheaders
 pip3 install django-cors-headers
+pip3 install python-dotenv
+pip3 install python-decouple
