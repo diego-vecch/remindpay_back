@@ -24,11 +24,10 @@ python -m virtualenv venv
 pip install django-cors-headers
 pip install python-dotenv
 pip install python-decouple
-
+pip install djongo
 # Configuración del proyecto en Mac
 ## Create a virtual environment to isolate our package dependencies locally
 python3 -m venv env
-source env/bin/activate  
 
 ## Install Django and Django REST framework into the virtual environment
 pip install django
