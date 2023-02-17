@@ -88,6 +88,19 @@ DATABASES = {
     }
 }
 
+# DATABASES = {
+#         'default': {
+#             'ENGINE': config('ENGINE'),
+#             'NAME': config('NAME'),
+#             'ENFORCE_SCHEMA': False,
+#             'CLIENT': {
+#                 'host': config('HOST')
+#             }  
+#         }
+# }
+
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators

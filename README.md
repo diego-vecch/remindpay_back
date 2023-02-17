@@ -1,40 +1,49 @@
 # RemindPay Backend
-Bienvenidos al reposiotorio backend para la app de recordatorios de suscripciones de pago, encontrarás la guía de como implementar en tu entorno local y hacer pruebas. 
-## Clonar repositorio
-git clone https://github.com/diego-vecch/remindpay_back.git
+Welcome to the repository backend for paid subscription reminders app, you will find the guide on how to deploy in your local environment and do testing.
+---
+## 1) Clone repository
+$ git clone https://github.com/diego-vecch/remindpay_back.git
 
-# Configuración del proyecto en windows 
+# Project Settings on Windows 
 
-## Usando venv (entorno virtual) - opción 1
-python -m venv env
-env\Scripts\activate
+## 2) Create a virtual environment and activate it - for this step there are two options::
 
-## Usando virtual env(entorno virtual) - opción 2
+### Option 1 - Use venv
+$ python -m venv env
+$ env\Scripts\activate
 
-### Instalar el entorno  virtualenv
-pip install virtualenv
+### Option 2 - Use virtual env 
 
-### Crear el entorno virtual
-python -m virtualenv venv
+#### Install virtual env
+#### $ pip install virtualenv
 
-### Activar virtualenv
-.\venv\Scripts\activate
+#### Create a virtual environment
+#### $ python -m virtualenv venv
 
-### Install Corsheaders
-pip install django-cors-headers
-pip install python-dotenv
-pip install python-decouple
+#### Active virtualenv
+$ .\venv\Scripts\activate
 
-# Configuración del proyecto en Mac
-## Create a virtual environment to isolate our package dependencies locally
-python3 -m venv env
-source env/bin/activate  
+## 3) Install Django and Django REST framework into the virtual environment
+#### $ pip install django
 
-## Install Django and Django REST framework into the virtual environment
-pip install django
-pip install djangorestframework
+## 4) Install dependencies
 
-### Install Corsheaders
-pip3 install django-cors-headers
-pip3 install python-dotenv
-pip3 install python-decouple
+#### $ pip install django-cors-headers
+#### $ pip install python-dotenv
+#### $ pip install python-decouple
+
+# Project Settings on Mac
+
+## 2) Create a virtual environment to isolate our package dependencies locally
+$ python3 -m venv env
+$ source env/bin/activate
+
+## 3) Install Django and Django REST framework into the virtual environment
+$ pip install django
+$ pip install djangorestframework
+
+## 4) Install dependencias
+#### $ pip install django-cors-headers
+#### $ pip install python-dotenv
+#### $ pip install python-decouple
+---
